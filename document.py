@@ -151,7 +151,7 @@ def generate_md_documentation(filename, funcs_info, imports, author=None, compan
         file.write("\n") 
         
         if author:
-            file.write(f"**Author:** {author}\n")  
+            file.write(f"**Author:** {author}\n\n")  
         
         file.write(f"**Date/Time:** {current_datetime}\n\n")
         file.write(f"----\n\n")
